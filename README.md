@@ -1,6 +1,3 @@
 # Diplomado 2018-2
 
-ejercicios
-
-
-xdddd
+En este repo ire subiendo los ejercicios solicitados del diplomado
