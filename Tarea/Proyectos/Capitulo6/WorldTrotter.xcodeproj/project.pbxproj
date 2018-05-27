@@ -14,6 +14,7 @@
 		21E110102044876500F45A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E1100E2044876500F45A44 /* LaunchScreen.storyboard */; };
 		21E1101B2044876500F45A44 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E1101A2044876500F45A44 /* WorldTrotterTests.swift */; };
 		21E110262044876500F45A44 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E110252044876500F45A44 /* WorldTrotterUITests.swift */; };
+		A54B3FFF20BB4884003A0998 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B3FFE20BB4884003A0998 /* MapViewController.swift */; };
 		A59413C020B7D6420009E366 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59413BF20B7D6420009E366 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		21E110212044876500F45A44 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E110252044876500F45A44 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		21E110272044876500F45A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54B3FFE20BB4884003A0998 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A59413BF20B7D6420009E366 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				21C9AD53205C24AB00C35BE7 /* ConversionViewController.swift */,
 				21E110052044876500F45A44 /* AppDelegate.swift */,
 				21E110092044876500F45A44 /* Main.storyboard */,
+				A54B3FFE20BB4884003A0998 /* MapViewController.swift */,
 				21E1100C2044876500F45A44 /* Assets.xcassets */,
 				21E1100E2044876500F45A44 /* LaunchScreen.storyboard */,
 				21E110112044876500F45A44 /* Info.plist */,
@@ -200,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = d182_Ricardo_R;
 				TargetAttributes = {
 					21E110012044876500F45A44 = {
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C9AD54205C24AB00C35BE7 /* ConversionViewController.swift in Sources */,
+				A54B3FFF20BB4884003A0998 /* MapViewController.swift in Sources */,
 				21E110062044876500F45A44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -348,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -398,6 +404,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -405,6 +412,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

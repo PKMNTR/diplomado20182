@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Convert-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ConversionViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
@@ -73,7 +73,7 @@
                             <outletCollection property="gestureRecognizers" destination="7V2-Wp-O2w" appends="YES" id="C6O-UC-0Ic"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="X4Z-8X-T4N"/>
+                    <tabBarItem key="tabBarItem" title="Convert" image="ConvertIcon" id="X4Z-8X-T4N"/>
                     <connections>
                         <outlet property="celsiusLabel" destination="rZY-J4-iVD" id="zdk-wX-gsV"/>
                         <outlet property="textField" destination="Ic9-TV-aLG" id="Smt-0C-9RN"/>
@@ -88,15 +88,11 @@
             </objects>
             <point key="canvasLocation" x="822" y="-188"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="aOx-PT-DLu">
             <objects>
-                <viewController id="TSP-1X-OEW" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="S6u-HA-h2b">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
-                    <tabBarItem key="tabBarItem" title="Item" id="tE8-Je-wR6"/>
+                <viewController id="TSP-1X-OEW" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="tE8-Je-wR6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LR3-3J-hMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -108,12 +104,13 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="TLW-AT-3mM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7TK-vC-AwE">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="TSP-1X-OEW" kind="relationship" relationship="viewControllers" id="ghP-bh-dJx"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="qHl-DN-aQ7"/>
+                        <segue destination="TSP-1X-OEW" kind="relationship" relationship="viewControllers" id="ghP-bh-dJx"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YhM-Kt-WIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -121,4 +118,8 @@
             <point key="canvasLocation" x="-138" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ConvertIcon" width="48" height="32"/>
+        <image name="MapIcon" width="48" height="32"/>
+    </resources>
 </document>
