@@ -47,7 +47,7 @@ class MapViewController : UIViewController{
         switch segControl.selectedSegmentIndex {
         case 0:
             mapView.mapType = .standard
-        case 1:∫
+        case 1:
             mapView.mapType = .hybrid
         case 2:
             mapView.mapType = .satellite
