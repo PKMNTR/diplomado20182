@@ -16,6 +16,7 @@
 		21E110262044876500F45A44 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E110252044876500F45A44 /* WorldTrotterUITests.swift */; };
 		A54B3FFF20BB4884003A0998 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B3FFE20BB4884003A0998 /* MapViewController.swift */; };
 		A59413C020B7D6420009E366 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59413BF20B7D6420009E366 /* MapKit.framework */; };
+		A5A2666020C64AE30095B2EE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A2666220C64AE30095B2EE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		A58778A720C10A9400EB0236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A58778A820C10BEC00EB0236 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		A59413BF20B7D6420009E366 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A5A2666120C64AE30095B2EE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A5A2666320C64B050095B2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A5A2666420C64B080095B2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				21E110052044876500F45A44 /* AppDelegate.swift */,
 				21E110092044876500F45A44 /* Main.storyboard */,
 				A54B3FFE20BB4884003A0998 /* MapViewController.swift */,
+				A5A2666220C64AE30095B2EE /* Localizable.strings */,
 				21E1100C2044876500F45A44 /* Assets.xcassets */,
 				21E1100E2044876500F45A44 /* LaunchScreen.storyboard */,
 				21E110112044876500F45A44 /* Info.plist */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E110102044876500F45A44 /* LaunchScreen.storyboard in Resources */,
+				A5A2666020C64AE30095B2EE /* Localizable.strings in Resources */,
 				21E1100D2044876500F45A44 /* Assets.xcassets in Resources */,
 				21E1100B2044876500F45A44 /* Main.storyboard in Resources */,
 			);
@@ -330,6 +336,16 @@
 				21E1100F2044876500F45A44 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A2666220C64AE30095B2EE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A2666120C64AE30095B2EE /* es */,
+				A5A2666320C64B050095B2EE /* Base */,
+				A5A2666420C64B080095B2EE /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
